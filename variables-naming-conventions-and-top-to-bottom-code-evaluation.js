@@ -30,3 +30,35 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+*/
+  
+ //rewrite the code with descriptive names:
+
+let personName = "Alice";
+let personAge = 5;
+let isStudent = true;
+
+console.log(personName + " is " + personAge + " years old.");
+if (isStudent) {
+  console.log(personName + " is a student.");
+}
+
+//Enhance the Program (add 2 new variables)
+
+Let’s add courseName and graduationYear to make it more functional:
+
+let personName = "Alice";
+let personAge = 5;
+let isStudent = true;
+let courseName = "Computer Science";
+let graduationYear = 2026;
+
+console.log(personName + " is " + personAge + " years old.");
+if (isStudent) {
+  console.log(personName + " is a student studying " + courseName + ".");
+  console.log("Expected graduation year: " + graduationYear);
+}
+
+
+
